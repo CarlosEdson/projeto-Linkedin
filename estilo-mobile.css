@@ -7,6 +7,9 @@
 body{
     height: 100dvh;
     width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 header{
     background-color: grey;
@@ -34,10 +37,22 @@ header > p{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-main{
-    height: 90%;
-}
 footer{
     background-color: grey;
-    height: 5%;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer i{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer div:active{
+    border-top: 3px solid red;
+}
+.numnotificacao{
+    display: none;
 }
