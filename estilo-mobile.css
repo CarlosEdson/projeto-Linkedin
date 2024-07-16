@@ -22,7 +22,15 @@ header i{
     font-size: 35px;
 }
 header menu{
-    display: none;
+    border: 1px solid red;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    height: 60%;
+    width: 50%;
+}
+ul{
+    list-style-type: none;
 }
 header > input#pesquisa{
     width: 65%;
