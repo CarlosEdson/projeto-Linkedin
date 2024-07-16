@@ -42,12 +42,12 @@ header > p{
 }
 footer{
     background-color: grey;
-    height: 7%;
+    height: 8dvh;
     display: flex;
     justify-content: space-around;
 }
 footer i{
-    font-size: 35px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -59,7 +59,4 @@ footer div p{
 }
 footer i:active{
     border-top: 3px solid red;
-}
-.numnotificacao{
-    display: none;
 }
