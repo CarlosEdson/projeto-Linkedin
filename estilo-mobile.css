@@ -24,13 +24,32 @@ header i{
 header menu{
     border: 1px solid red;
     position: absolute;
-    top: 7%;
+    top: 0%;
     left: 0%;
-    height: 60%;
-    width: 50%;
+    height: 100%;
+    width: 65%;
+}
+menu > ul > div{
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+    background-color: rgb(128, 128, 128);
+}
+menu > ul > div > #exit{
+    position: absolute;
+    left: 80%;
+}
+menu > ul > div > #usuario{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 120px;
 }
 ul{
     list-style-type: none;
+}
+menu > ul > li{
+    border: 1px solid;
+    height: 85px;
 }
 header > input#pesquisa{
     width: 65%;
