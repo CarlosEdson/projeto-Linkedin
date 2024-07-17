@@ -12,7 +12,7 @@ body{
     flex-direction: column;
 }
 header{
-    background-color: grey;
+    background-color:  rgb(48, 47, 47);
     height: 7%;
     display: flex;
     align-items: center;
@@ -68,22 +68,35 @@ header > p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 footer{
-    background-color: grey;
-    height: 8dvh;
+    background-color:  rgb(48, 47, 47);
+    height: 6dvh;
     display: flex;
     justify-content: space-around;
 }
-footer i{
-    font-size: 30px;
+footer div{
+    font-size: 32px;
+    border-top: 3px solid rgb(48, 47, 47);
     display: flex;
-    align-items: center;
     flex-direction: column;
-    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 footer div p{
     font-size: 15px;
     font-weight: bold;
+    text-align: center;
 }
-footer i:active{
+.numnotificacao{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 74%;
+    top: 94%;
+    height: 22px;
+    width: 5px;
+}
+footer div:active{
     border-top: 3px solid red;
 }
