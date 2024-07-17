@@ -29,14 +29,19 @@ header menu{
     height: 100%;
     width: 65%;
 }
-menu > ul > div{
-    border-bottom: 1px solid;
-    padding-bottom: 30px;
-    background-color: rgb(128, 128, 128);
+#itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+#itens .areadelogin{
+    border: 1px solid blue;
 }
 menu > ul > div > #exit{
     position: absolute;
     left: 80%;
+    padding-top: 5%;
 }
 menu > ul > div > #usuario{
     position: relative;
@@ -74,7 +79,7 @@ footer{
     justify-content: space-around;
 }
 footer div{
-    font-size: 180%;
+    font-size: 170%;
     border-top: 3px solid rgb(48, 47, 47);
     display: flex;
     flex-direction: column;
@@ -94,8 +99,8 @@ footer div p{
     position: absolute;
     left: 74%;
     top: 93%;
-    height: 2%;
-    width: 0%;
+    height: 2.5%;
+    width: 1%;
 }
 footer div:active{
     border-top: 3px solid red;
