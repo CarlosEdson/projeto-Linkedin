@@ -22,21 +22,55 @@ header i{
     font-size: 35px;
 }
 header menu{
-    border: 1px solid red;
     position: absolute;
     top: 0%;
     left: 0%;
     height: 100%;
-    width: 65%;
-}
-#itens{
+    width: 73%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    background-color: rgb(48, 47, 47);
 }
-#itens .areadelogin{
-    border: 1px solid blue;
+.areadelogin{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+.areadelogin > h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 5px 10px;
+}
+.areadelogin > p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+}
+.escolha > li{
+    padding: 20px 0px 10px 10px;
+    font-size: 25px;
+}
+.escolha a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.configuracoes{
+    position: absolute;
+    top: 94%;
+    border-top: 1px solid;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.configuracoes > h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 7px;
 }
 menu > ul > div > #exit{
     position: absolute;
@@ -48,6 +82,7 @@ menu > ul > div > #usuario{
     top: 10px;
     left: 5px;
     font-size: 120px;
+    padding-bottom: 10px;
 }
 ul{
     list-style-type: none;
