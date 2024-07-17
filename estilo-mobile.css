@@ -59,10 +59,11 @@ header menu{
 }
 .configuracoes{
     position: absolute;
-    top: 94%;
+    top: 92%;
     border-top: 1px solid;
-    width: 100%;
+    width: 95%;
     padding-top: 10px;
+    padding-left: 10px;
     display: flex;
     align-items: center;
 }
@@ -72,10 +73,10 @@ header menu{
     color: white;
     padding-left: 7px;
 }
-menu > ul > div > #exit{
+.areadelogin > #exit{
     position: absolute;
     left: 80%;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 menu > ul > div > #usuario{
     position: relative;
