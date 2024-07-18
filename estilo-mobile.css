@@ -25,7 +25,7 @@ header > #itens{
     position: absolute;
     top: 0%;
     left: 0%;
-    height: 99%;
+    height: 100dvh;
     width: 73%;
     display: flex;
     flex-direction: column;
@@ -43,10 +43,12 @@ header > #itens{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 0px 5px 10px;
 }
-.areadelogin > p{
+.areadelogin > a{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 12px;
+    text-decoration: none;
+    color: white;
 }
 .escolha > li{
     padding: 20px 0px 10px 10px;
@@ -67,11 +69,12 @@ header > #itens{
     display: flex;
     align-items: center;
 }
-.configuracoes > h3{
+.configuracoes > a{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-left: 7px;
+    text-decoration: none;
 }
 .areadelogin > #exit{
     position: absolute;
