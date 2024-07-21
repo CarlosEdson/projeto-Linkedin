@@ -51,7 +51,6 @@ header > .cabecalho > input#pesquisa{
     border-bottom: 2px solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 #logousuario{
     font-size: 120px;
