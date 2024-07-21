@@ -9,37 +9,44 @@
 </head>
 <body>
     <header>
-        <i onclick="login()" class="ph-bold ph-user-circle"></i>
-        <menu id="itens">
-            <ul>
-                <div class="areadelogin">
-                    <i id="exit" onclick="exit()" class="ph-bold ph-x">exit</i>
-                    <i id="usuario" class="ph-bold ph-user-circle"></i>
-                    <h4>Carlos Edson Duarte</h4>
-                    <a href="#">
-                        <p>Ver Perfil</p>
-                    </a>
+        <div class="cabecalho">
+            <!--icone de usuario-->
+            <i onclick="login()" class="ph-bold ph-user-circle"></i>
+            <!--icone de pesquia-->
+            <i id="iconepesquisa" class="ph-bold ph-magnifying-glass"></i>
+            <!--campo de pesquisa-->
+            <input type="search" name="" id="pesquisa" placeholder="Pesquisa">
+            <!--icone de mensagens-->
+            <i class="ph-bold ph-chat-circle-dots"></i>
+        </div>
+        <!--area do menu hamburguer-->
+        <div id="menu">
+            <!--icone de usuario-->
+            <div class="areausuario">
+                <i id="logousuario" class="ph-bold ph-user-circle"></i>
+                <!--area de informações do usuario-->
+                <div class="informacoes">
+                    <h3>Carlos Edson Duarte</h3>
+                    <a href="#">Ver Perfil</a>
                 </div>
-                <div class="escolha">
-                    <li><a href="#">Publicações Salvas</a></li>
-                    <li><a href="#">Grupos</a></li>
+                <div class="maisinformacoes">
+                    <a href="#">Publicações Salvas</a>
+                    <a href="#">Grupos</a>
                 </div>
-                <div class="configuracoes">
+            </div>
+            <div class="iconeconfiguracoes">
+                <a href="#">
                     <i class="ph-bold ph-gear"></i>
-                    <a href="#">
-                        <h3>Configurações</h3>
-                    </a>
-                </div>
-            </ul>
-        </menu>
-        <i id="iconepesquisa" class="ph-bold ph-magnifying-glass"></i>
-        <input type="search" name="" id="pesquisa">
-        <p>pesquisa</p>
-        <i class="ph-bold ph-chat-circle-dots"></i>
+                    Configurações
+                </a>
+            </div>
+        </div>
     </header>
     <main>
     </main>
+    <!--area de Rodapé-->
     <footer>
+        <!--icones-->
         <div class="inicio">
             <i class="ph-bold ph-house"></i>
             <p>Inicio</p>

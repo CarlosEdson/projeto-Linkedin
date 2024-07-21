@@ -1,9 +1,10 @@
 @charset "UTF-8";
-
+/*configurações gerais*/
 *{
     margin: 0px;
     padding: 0px;
 }
+/*configurações do corpo*/
 body{
     height: 100dvh;
     width: 100vw;
@@ -11,109 +12,97 @@ body{
     justify-content: space-between;
     flex-direction: column;
 }
+/*configurações do cabeçalho*/
 header{
-    background-color:  rgb(48, 47, 47);
-    height: 7%;
+    background-color: rgb(48, 47, 47);
+    height: 5%;
+}
+header > .cabecalho{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
-header i{
-    font-size: 35px;
+header > .cabecalho > i{
+    font-size: 40px;
 }
-header > #itens{
+header > .cabecalho > #iconepesquisa{
     position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 100dvh;
-    width: 73%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    font-size: 20px;
+    left: 72%;
+}
+header > .cabecalho > input#pesquisa{
+    width: 250px;
+    height: 30px;
+}
+/*configurações para o menu hamburguer*/
+#menu{
+    height: 100%;
+    width: 70%;
     background-color: rgb(48, 47, 47);
+    position: absolute;
+    top: 0px;
+    border: 1px solid;
 }
-.areadelogin{
-    height: 70%;
+.areausuario{
+    height: 25%;
+    border-bottom: 2px solid;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid;
+    justify-content: space-around;
 }
-.areadelogin > h4{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 0px 5px 10px;
-}
-.areadelogin > a{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 12px;
-    text-decoration: none;
-    color: white;
-}
-.escolha > li{
-    padding: 20px 0px 10px 10px;
-    font-size: 25px;
-}
-.escolha a{
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.configuracoes{
-    position: absolute;
-    top: 92%;
-    border-top: 1px solid;
-    width: 95%;
-    padding-top: 10px;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-}
-.configuracoes > a{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-left: 7px;
-    text-decoration: none;
-}
-.areadelogin > #exit{
-    position: absolute;
-    left: 80%;
-    margin-top: 5%;
-}
-menu > ul > div > #usuario{
-    position: relative;
-    top: 10px;
-    left: 5px;
+#logousuario{
     font-size: 120px;
-    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
-ul{
-    list-style-type: none;
+.informacoes{
+    padding: 10px;
 }
-menu > ul > li{
-    border: 1px solid;
-    height: 85px;
+.informacoes > h3{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
 }
-header > input#pesquisa{
-    width: 65%;
-    height: 55%;
-}
-#iconepesquisa{
+.informacoes > a{
+    text-decoration: none;
     font-size: 20px;
-    position: absolute;
-    left: 19%;
-}
-header > p{
-    position: absolute;
-    left: 26%;
-    font-size: 16px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
+.maisinformacoes{
+    display: flex;
+    flex-direction: column;
+}
+.maisinformacoes > a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-left: 10px;
+    color: white;
+}
+.iconeconfiguracoes{
+    position: relative;
+    top: 68%;
+    padding-bottom: 10px;
+    border-top: 2px solid;
+}
+.iconeconfiguracoes > a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.iconeconfiguracoes > a > i{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+/*configurações do rodapé*/
 footer{
     background-color:  rgb(48, 47, 47);
-    height: 7dvh;
+    height: 7vh;
     display: flex;
     justify-content: space-around;
 }
