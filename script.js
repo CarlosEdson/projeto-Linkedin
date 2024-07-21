@@ -1,7 +1,7 @@
-function login(){
-    if(itens.style.display == 'block'){
-        itens.style.display = 'none'
+function alteracaodeusuario(){
+    if(menu.style.display == 'block'){
+        menu.style.display = 'none'
     } else {
-        itens.style.display = 'block'
+        menu.style.display = 'block'
     }
 }
