@@ -43,7 +43,6 @@ header > .cabecalho > input#pesquisa{
     position: absolute;
     top: 0px;
     border: 1px solid;
-    /*area de mudança*/
     display: none;
 }
 .areausuario{
