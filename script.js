@@ -1,16 +1,14 @@
-const alterarusuario = document.querySelector('#menu')
+const abrir = document.querySelector('#menu')
 
-function trocadeusuario(){
-    if(menu.style.display == 'block'){
-        menu.style.display = 'none'
+function abrirmenu(){
+    if(abrir.style.display == 'block'){
+        abrir.style.display = 'none'
     } else {
-        menu.style.display = 'block'
+        abrir.style.display = 'block'
     }
 }
-
-document.addEventListener('click', (Event) => {
-    console.log(Event.target)
-    if(menu.contains(Event.target) && menu.querySelector('#menu')){
-        trocadeusuario()
+function fecharmenu(){
+    if(abrir.style.display == 'block'){
+        abrir.style.display = 'none'
     }
-})
+}
