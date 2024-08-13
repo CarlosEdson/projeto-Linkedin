@@ -1,10 +1,8 @@
-const abrir = document.querySelector('#menu')
-const corpo = document.querySelector('#corpo')
-
-function abrirmenu(){
+let abrir = document.querySelector("#menu")
+document.querySelector("#abrirmenu").addEventListener("click", function(){
     if(abrir.style.display == 'block'){
         abrir.style.display = 'none'
-    } else {
+    } else{
         abrir.style.display = 'block'
     }
-}
+})
